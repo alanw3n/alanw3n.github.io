@@ -69,9 +69,9 @@
 }
 
 #hero img{
-    width: 200px;
+    width: 250px;
     height: auto;
-    border: 1px solid deepskyblue;
+    border: 1px solid white;
 }
 
 #hero .pic{
@@ -104,14 +104,14 @@
     color: white;
     font-size: 1.5rem;
     padding: 1rem;
-    border: 1px solid deepskyblue;
+    border: 1px solid white;
     border-radius: 12px;
 }
 
 #hero .links ul li a:hover{
     text-decoration: none;
-    background-color: deepskyblue;
-    border-color: white;
+    color: black;
+    background-color: white;
 }
 
 @media(max-width: 768px){
@@ -122,7 +122,7 @@
         margin-bottom: 3vh;
     }
     #hero .pic img{
-        width: 25vmin;
+        width: 175px;
     }
     #hero .heading{
         display: flex;
@@ -145,11 +145,14 @@
         margin-bottom: 1.5vh;
         text-align: center;
         width: 200px;
-        border: 1px solid deepskyblue;
+        border: 1px solid white;
         border-radius: 12px;
     }
     #hero .links ul li:hover{
-        background-color: deepskyblue;
+        background-color: white;
+    }
+    #hero .links ul li:hover a{
+        color: black;
     }
     #hero .links ul li a{
         font-size: 3.5vmin;
@@ -255,11 +258,14 @@
 
 #contact .col-9{
     display: flex;
+    justify-content: space-around;
+
 }
 
 @media (max-width: 768px){
     #contact .col-9{
         flex-direction: column;
+        align-items: center;
     }
 }
 /* Contact End */
