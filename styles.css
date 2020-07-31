@@ -108,11 +108,7 @@
     border-radius: 12px;
 }
 
-#hero .links ul li a:hover{
-    text-decoration: none;
-    color: black;
-    background-color: green;
-}
+
 
 @media(max-width: 768px){
     #hero .row{
